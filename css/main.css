@@ -14,7 +14,7 @@ body {
     margin: 0px auto;
     padding: 0px;
     overflow-x: hidden; 
-    
+    background-color: rgb(190, 189, 189);
     }
 
 a:hover {
@@ -81,5 +81,25 @@ a {
 /*-----------------------
     Common CSS Ends
 -------------------------*/
+.abaout{
+    margin-top: 200px;
+    
+}
 
-/* Slider */
+@media screen and (max-width: 700px) {
+.abaout{
+    text-align: center;
+}
+.text{
+    text-align: center !important;
+    padding-left: 10px;
+    
+}
+}
+
+.card-title{
+    color: black; 
+}
+.card-text{
+    color: black;
+}

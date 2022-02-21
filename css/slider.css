@@ -274,7 +274,7 @@
   margin-left: 10px;
   cursor: pointer;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
   .nav__slide {
     width: 22px;
     height: 22px;
