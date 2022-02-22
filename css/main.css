@@ -103,3 +103,7 @@ a {
 .card-text{
     color: black;
 }
+
+.flex-column{
+    list-style-type: none;
+}
