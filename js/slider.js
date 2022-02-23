@@ -175,7 +175,6 @@ $(document).ready(function () {
 	// $(document).on('mousewheel DOMMouseScroll', function (e) {
 	// 	if (animation) return;
 	// 	var delta = e.originalEvent.wheelDelta;
-
 	// 	if (delta > 0 || e.originalEvent.detail < 0) navigateLeft();
 	// 	if (delta < 0 || e.originalEvent.detail > 0) navigateRight();
 	// });

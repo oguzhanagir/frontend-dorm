@@ -17,6 +17,7 @@
   
       <link rel="stylesheet" href="css/slider.css">
       <link rel="stylesheet" href="css/button.css">
+      <link rel="stylesheet" href="css/cities-card.css">
   </head>
   <body>
       <!-- Nav-Start -->
@@ -52,79 +53,38 @@
       </nav>
 
       <!-- Nav-End -->
-      <!-- Form  -->
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-8 ">
-            <h1>Yurtlar Seni Arasın </h1>
-            <h3>Yurt Fiyatlarını öğrenebilirsin</h3><br>
-            <input class="form-control" type="text" placeholder="Ad Soyad" aria-label="default input example"><br>
-            <input class="form-control" type="text" placeholder="Telefon Numarası" aria-label="default input example"><br>
-            <label for="exampleDataList" class="form-label"></label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Üniversite Seçiniz">
-            <datalist id="datalistOptions">
-              <option value="San Francisco">
-              <option value="New York">
-              <option value="Seattle">
-              <option value="Los Angeles">
-              <option value="Chicago">
-            </datalist>
-            <label for="exampleDataList" class="form-label"></label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Fakülte Seç">
-            <datalist id="datalistOptions">
-              <option value="San Francisco">
-              <option value="New York">
-              <option value="Seattle">
-              <option value="Los Angeles">
-              <option value="Chicago">
-            </datalist>
-            <label for="exampleDataList" class="form-label"></label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Yurt Tipi Seç">
-            <datalist id="datalistOptions">
-              <option value="San Francisco">
-              <option value="New York">
-              <option value="Seattle">
-              <option value="Los Angeles">
-              <option value="Chicago">
-            </datalist>
-            <div class="form-check mt-4">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">
-                Kullanıcı Sözleşmesi'ni okudum,kabul ediyorum.
-              </label>
-            </div>
-            <div class="d-grid gap-2 col-6 mx-auto mt-4">
-              <button class="btn btn-primary" type="button">Button</button>
-              
-            </div>
-            
-
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Form-End -->
-      <!-- İnfo-Text -->
-      <div class="container mt-5 pt-5">
-        <div class="row">
-          <div class="col">
-            <h1 class="text-center">Yurt Fiyatları Cebine Gelsin</h1><br>
-            <div class="row">
-              <div class="col-3"> </div>
-              <div class="col">
-                <p class="text-center">Yurt fiyatlarını öğrenmek için tek tek yurtları arama, hiçbir ücret ödemeden yurtlar seni arasın! Kazandığın üniversiteyi seç, bölgedeki yurtlar imkanları ve güncel fiyatları ile ilgili sms veya telefon yoluyla sana bilgi versin.
-                </p>
+      <!-- Head -->
+      <div class="container ">
+          <div class="row">
+              <div class="col-8 mt-5 pt-5">
+                  <h1>Yurt İsmi gelecek </h1><br>
+                  <p>Yurt hakkında bilgi</p>
               </div>
-              <div class="col-3"></div>
-            </div>
+              <div class="col-4 mt-5"><img src="https://picsum.photos/100/50" alt=""></div>
           </div>
-        </div>
       </div>
 
-
-      <!-- İnfo-Text-End -->
-      
+      <!-- Head-End -->
+      <!-- Cities-Card -->
+      <div class="container me-5 mt-5">
+        <div class="row">
+          <div class="col-lg-4 p-2 mt-5">
+              <div class="property-card">
+                <a href="#">
+                  <div class="property-image">
+                    <div class="property-image-title">
+                      <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+                    </div>
+                  </div></a>
+                <div class="property-description">
+                  <h5> Yurt adedi kadar kart tanımla </h5>
+                  <p>Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+                </div>
+                
+        </div>
+    </div>
+    
+    <!-- Cities-Card-End -->
       <!-- Footer -->
       
       <div class="container mt-4 me-5 footer">
