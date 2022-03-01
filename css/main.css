@@ -14,7 +14,6 @@ body {
     margin: 0px auto;
     padding: 0px;
     overflow-x: hidden; 
-    background-color: rgb(190, 189, 189);
     }
 
 a:hover {
@@ -99,7 +98,13 @@ a {
     padding-left: 10px;
     
 }
+.citiescard{
+    margin-left: 100px;
+
 }
+
+}
+
 
 .card-title{
     color: black; 
