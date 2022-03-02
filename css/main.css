@@ -127,3 +127,8 @@ a {
 .navbar-toggler{
     margin-left: 20px;
 }
+
+.card{
+    background-color: #b4dcf8 !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
