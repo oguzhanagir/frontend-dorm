@@ -90,6 +90,11 @@ a {
     color: #25D366;
 }
 
+.logo{
+    width: 20%;
+    
+}
+
 @media screen and (max-width: 700px) {
 .abaout{
     text-align: center;
