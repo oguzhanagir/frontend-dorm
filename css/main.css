@@ -91,7 +91,7 @@ a {
 }
 
 .logo{
-    width: 18%;
+    width: 15%;
     display:inline-block;
     
 }
@@ -107,7 +107,14 @@ a {
 }
 .citiescard{
     margin-left: 100px;
+    padding-top: 50px !important;
 
+}
+
+.logo{
+    width: 30%;
+    
+    
 }
 
 }
@@ -131,4 +138,54 @@ a {
 .card{
     background-color: #b4dcf8 !important;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-text{
+    font-size: 20px;
+}
+
+.logo_header_1{
+    color: #20628d;
+}
+
+.logo_header_2{
+    color: #ac1c7a !important;
+}
+
+.nav_back{
+    background-color:#f5f5fd ;
+}
+
+.footer_img{
+    border-radius: 30px;
+}
+
+.dorm_img{
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 12px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .dorm_img{
+        margin-left: 0px;
+        margin-top: 175px;
+        border-radius: 12px;
+        height: 100px;
+    }
+
+    .whatsapp{
+        margin-top: 20px;
+    }
+
+    .city_img{
+        margin-top: 50px;
+        border-radius: 12px;  
+    }
+
+    .city_card{
+       width: 50% !important;
+        
+    }
 }
