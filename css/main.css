@@ -169,6 +169,10 @@ a {
     border-radius: 12px;
 }
 
+.main_header_{
+    margin-top: 200px;
+}
+
 
 @media screen and (max-width: 700px) {
     .dorm_img{
@@ -191,4 +195,18 @@ a {
        width: 50% !important;
         
     }
+    .logo_header_1_1{
+        color: #20628d;
+        position: absolute;
+        margin-left: 100px;
+    }
+    
+    .logo_header_2_1{
+        color: #ac1c7a !important;
+    }
+    .navitem{
+        margin-left: 30px;
+        font-weight: 600;
+    }
+    
 }
