@@ -4,6 +4,13 @@
   overflow-x: hidden;
   top: 40px;
 }
+.conte{
+  position: relative;
+  height: 30vh;
+  overflow-x: hidden;
+  top: 60px;
+
+}
 
 .slider {
   position: relative;
@@ -63,6 +70,9 @@
 }
 .slide--5 {
   left: 400%;
+}
+.slide--6 {
+  left: 500%;
 }
 .slide__darkbg {
   position: absolute;
@@ -251,6 +261,29 @@
 }
 .slide--5__letter {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/city--5-min-min.jpg") center center no-repeat;
+  background-position: 0px center, 0px center;
+  background-size: cover;
+}
+.slide--6__darkbg {
+  left: 0%;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/city--1-min-min.jpg") center center no-repeat;
+  background-size: cover;
+  background-position: 0px center, 0px center;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+.slide--6__darkbg:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(11, 15, 39, 0.83);
+}
+.slide--6__letter {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/city--1-min-min.jpg") center center no-repeat;
   background-position: 0px center, 0px center;
   background-size: cover;
 }

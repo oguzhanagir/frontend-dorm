@@ -17,10 +17,17 @@
   
       <link rel="stylesheet" href="css/slider.css">
       <link rel="stylesheet" href="css/button.css">
+
+      
+  
       
   </head>
   <body>
     <!-- LOADER -->
+    <video playsinline autoplay muted loop poster="assets/Logo.png" id="bgvid">
+      <source src="assets/video2.mp4" type="video/webm">
+      <source src="assets/video1.mp4" type="video/mp4">
+    </video>
     
       <!-- Nav-Start -->
       <nav class="navbar navbar-expand-lg navbar-light nav_back " >
@@ -179,73 +186,19 @@
         </div>
 
         <!-- İtem-Card -->
-        <div class="container mt-5">
-          <div class="head p-5">
-            <h1>En Popüler Yurtlar</h1></div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            
+        <h1 class="text-center mt-5  slid">Popüler Yurtlar</h1>
+        <div class="container mb-5">
+          <div class="row">
             <div class="col">
-              <a href="dormitori_main.html">
-              <div class="card">
-                <img src="https://picsum.photos/200/100" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+              <div class="conte  ">
+                <div class="slider"></div>
+                <ul class="nav"></div>
+                <div data-target='right' class="side-nav side-nav--right"></div>
+                <div data-target='left' class="side-nav side-nav--left"></div>
               </div>
-            </a>
-            </div>
-            <div class="col">
-              <a href="dormitori_main.html">
-              <div class="card ">
-                <img src="https://picsum.photos/200/100" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </a>
-            </div><div class="col">
-              <a href="dormitori_main.html">
-              <div class="card">
-                <img src="https://picsum.photos/200/100" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </a>
-            </div>
-            <div class="col">
-              <a href="dormitori_main.html">
-              <div class="card">
-                <img src="https://picsum.photos/200/100" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </a>
-            </div><div class="col">
-              <a href="dormitori_main.html">
-              <div class="card">
-                <img src="https://picsum.photos/200/100" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </a>
-            </div><div class="col">
-              <a href="dormitori_main.html">
-              <div class="card">
-                <img src="https://picsum.photos/200/100" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </a>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+              
+              
             </div>
           </div>
         </div>
@@ -253,7 +206,7 @@
       <!-- İtem-Card-End -->
       <!-- Footer -->
       
-        <div class="container mt-4 me-5 footer">
+        <div class="container mt-5 pt-5 me-5 footer">
           <footer class="py-5">
             <div class="row">
               <div class="col-lg-3 col-4 ">
