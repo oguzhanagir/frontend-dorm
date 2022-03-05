@@ -3,6 +3,8 @@
   height: 30vh;
   overflow-x: hidden;
   top: 40px;
+  border-radius: 50px;
+  opacity: 80%;
 }
 .conte{
   position: relative;
@@ -283,7 +285,7 @@
   background-color: rgba(11, 15, 39, 0.83);
 }
 .slide--6__letter {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/city--1-min-min.jpg") center center no-repeat;
+  background: url("") center center no-repeat;
   background-position: 0px center, 0px center;
   background-size: cover;
 }

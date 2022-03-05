@@ -13,7 +13,8 @@
 
     <title>Senin Yurdun</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
-  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
       <link rel="stylesheet" href="css/slider.css">
       <link rel="stylesheet" href="css/button.css">
@@ -33,13 +34,16 @@
       <nav class="navbar navbar-expand-lg navbar-light nav_back " >
         <div class="container-fluid p-0">
           <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "><a href="index.html"><h2 class="logo_header_1_1">Senin <label class="logo_header_2_1" >Yurdun</label>  </h2></a></span> 
+            <span class="navbar-toggler-icon nav_col "><a href="index.html"><h2 class="logo_header_1_1">Senin <label class="logo_header_2_1" >Yurdun</label>  </h2></a></span> 
+            
           </button>
+
+          <a class="d-xl-none d-xxl-none " href="index.html"><img src="assets/logoresponsive.jpeg" class="logores" alt=""></a>
           
           
           
           <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
-            <a class="navbar-brand  d-inline-block" href="index.html"><img class="logo" src="assets/Logo.png" alt="">
+            <a class="navbar-brand  d-inline-block d-none d-lg-block d-xl-block" href="index.html"><img class="logo" src="assets/Logo.png" alt="">
               <h2 class=" ms-5 d-none d-lg-inline-block logo_header_1" >Senin Yurdun</h2>
               <h5 class=" ms-3 d-none d-lg-inline-block logo_header_2"  >Yeni Nesil Yurt Rehberi</h5> 
             </a>
@@ -67,8 +71,13 @@
       </nav>
 
       <!-- Nav-End -->
-      <div class="heading">
-        <h1 class="text-center mt-5">En Popüler Yurtlar</h1>
+      <div class="heading mt-4">
+        <div class="card card_head_1">
+          <div class="card-body">
+            <h1 class="text-center ">En Popüler Yurtlar</h1>
+          </div>
+        </div>
+        
       </div>
       <!-- Slider -->
       <div class="cont  ">
@@ -84,16 +93,22 @@
       <!-- Slider-End -->
 
       <div class="container main_header_">
-        <div class="head text-center mt-5 mb-5 p-4">
-          <h1>Senin Yurdunu Beraber Bulalım</h1>
-          <p>Senin Yurdun ile yurt bulma sıkıntısı sona eriyor!</p>
+        <div class="head text-center mt-5 mb-3 p-4">
+          <div class="card card_head_2">
+            <div class="card-body card_head_2">
+              <h5 class="head_title_1 d-inline-block ">Senin Yurdunu Beraber Bulalım</h5>
+              <i class="fa-solid fa-magnifying-glass float-end mt-2 "></i>
+            </div>
+          </div>
+          
+          
         </div>
       </div>
       <!-- Layout -->
       <div class="container mt-lg-5 d-none d-lg-block d-xl-block me-5 ">
         <div class="row ms-5">
-          <div class="col-3 ps-3">
-            <select class="form-select " aria-label="Default select example">
+          <div class="col-3 ps-3 ">
+            <select class="form-select  " aria-label="Default select example">
               <option selected>Şehir Seçiniz</option>
               <option value="1">One</option>
               <option value="2">Two</option>
@@ -126,32 +141,32 @@
       <div class="container d-xl-none d-xxl-none d-md-none">
         <div class="row">
           
-            <div class="col-9 ps-4 mb-3">
-              <select class="form-select" aria-label="Default select example">
+            <div class="col-9 offset-1 ps-4 mb-3 selectwrap ">
+              <select class="form-select form_resp " aria-label="Default select example">
                 <option selected>Şehir Seçiniz</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
             </div>
-            <div class="col-9 ps-4 mb-3">
-              <select class="form-select" aria-label="Default select example">
+            <div class="col-9 offset-1 ps-4 mb-3">
+              <select class="form-select form_resp" aria-label="Default select example">
                 <option selected>Üniversite Seçiniz</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
             </div>
-            <div class="col-9 ps-4 mb-3">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Yurt Tipi Seçiniz</option>
+            <div class="col-9 offset-1 ps-4 mb-3">
+              <select class="form-select form_resp" aria-label="Default select example">
+                <option selected >Yurt Tipi Seçiniz</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
             </div> 
           </div>
-        <button class="btn btn-primary ms-3 mt-2" type="submit">Yurt Ara</button>
+        <button class="btn btn_resp mt-2" type="submit"><i class="fa-solid fa-magnifying-glass"></i>  <h5 class="d-inline-block ps-5 pe-5">Yurt Ara</h5></button>
       </div>
 
 
