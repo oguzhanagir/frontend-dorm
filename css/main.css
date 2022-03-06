@@ -189,6 +189,11 @@ a {
     font-size:large;
 }
 
+.head_title_1_2{
+    font-weight: 500 !important;
+    color: #20628d;
+}
+
 .form_resp{
     border-radius: 50px;
     align-content: center;
@@ -203,6 +208,15 @@ a {
     background-color: #20628d !important;
     margin-left: 20%;
     border-radius: 50px;
+}
+
+.btn_abo{
+    margin-left: 205px;
+    color: #ac1c7a;
+}
+
+.fa-arrow-right{
+    color: #ac1c7a;
 }
 
 .nav_back{
@@ -227,6 +241,17 @@ a {
 }
 .logores{
     width: 70px;
+}
+.spons{
+    background-color: white !important;
+    border-radius: 50px;
+    opacity: 80%;
+    color: #ac1c7a;
+}
+.sponsor_img{
+    border-radius:40px;
+    width: 30%;
+    height: 40%;
 }
 
 @media screen and (max-width: 700px) {

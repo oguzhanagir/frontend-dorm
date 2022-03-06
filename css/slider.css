@@ -1,17 +1,29 @@
 .cont {
   position: relative;
-  height: 30vh;
+  height: 22vh;
   overflow-x: hidden;
   top: 40px;
   border-radius: 50px;
   opacity: 80%;
+ 
+  
 }
 .conte{
   position: relative;
-  height: 30vh;
+  height: 22vh;
   overflow-x: hidden;
   top: 60px;
+  border-radius: 50px;
+  opacity: 80%;
+}
 
+.conter{
+  position: relative;
+  height: 22vh;
+  overflow-x: hidden;
+  top: 100px;
+  border-radius: 50px;
+  opacity: 80%;
 }
 
 .slider {
