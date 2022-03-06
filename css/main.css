@@ -106,7 +106,21 @@ a {
     display:inline-block;
     
 }
+.card_heading_1{
+    margin-top: 170px;
+}
 
+.card_heading_2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.card_news{
+    background-color: white !important;
+    opacity: 70%;
+    width: 18rem;
+    border-radius: 20px;
+}
 
 
 @media screen and (max-width: 700px) {
@@ -247,11 +261,16 @@ a {
     border-radius: 50px;
     opacity: 80%;
     color: #ac1c7a;
+    margin-top: 70px;
 }
 .sponsor_img{
     border-radius:40px;
     width: 30%;
     height: 40%;
+}
+
+.footer{
+    opacity: 72%;
 }
 
 @media screen and (max-width: 700px) {
