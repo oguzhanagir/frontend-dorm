@@ -119,6 +119,7 @@ a {
     opacity: 70%;
     width: 18rem;
     border-radius: 20px;
+    
 }
 
 .bg_video{
@@ -182,6 +183,7 @@ a {
 }
 .card-cooment{
     background-color: white !important;
+    opacity: 80%;
 }
 
 .nav-text{
@@ -202,6 +204,15 @@ a {
     color: white;
     border-radius: 0px 50px 50px 0px;
 }
+.card_head_1_5{
+    width: 18rem;
+    background-color: #ac1c7a !important;
+    color: white;
+    border-radius: 50px;
+    
+    
+}
+
 .card_head_2{
     background-color: white !important;
     border-radius: 50px;
@@ -284,7 +295,7 @@ a {
 }
 
 .footer{
-    opacity: 72%;
+    opacity: 82%;
 }
 
 @media screen and (max-width: 700px) {
