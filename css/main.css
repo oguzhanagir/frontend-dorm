@@ -131,6 +131,12 @@ a {
     
 }
 
+.price_col{
+    background-color: white;
+    opacity: 70%;
+    border-radius: 20px;
+}
+
 @media screen and (max-width: 700px) {
 .abaout{
     text-align: center;
@@ -143,7 +149,7 @@ a {
 .citiescard{
     margin-left: 100px;
     padding-top: 50px !important;
-
+    opacity: 80%;
 }
 
 .logo{
