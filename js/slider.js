@@ -12,7 +12,7 @@ $(document).ready(function () {
 	var diff = 0;
 
 	// Generating slides
-	var arrCities = ['Amsterdam', 'Rome', 'New—York', 'Singapore', 'Prague','Ankara']; // Change number of slides in CSS also
+	var arrCities = ['Zahide Hanım', 'Rome', 'New—York', 'Singapore', 'Prague','Ankara']; // Change number of slides in CSS also
 	var numOfCities = arrCities.length;
 	var arrCitiesDivided = [];
 

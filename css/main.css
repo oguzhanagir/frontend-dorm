@@ -245,7 +245,7 @@ a {
 .btn_resp{
     color: white;
     background-color: #20628d !important;
-    margin-left: 20%;
+    margin-left: 110px;
     border-radius: 50px;
 }
 
@@ -292,6 +292,11 @@ a {
     border-radius:40px;
     width: 30%;
     height: 40%;
+}
+.sponsor_img_22{
+    border-radius:40px;
+    width: 30%;
+    height: 10%;
 }
 
 .footer{
