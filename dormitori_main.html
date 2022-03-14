@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
 
@@ -19,8 +18,17 @@
       <link rel="stylesheet" href="css/button.css">
       <link rel="stylesheet" href="css/cities-card.css">
 
+
+      <!-- Slider -->
+      
+      <!-- Slider_end -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
        <!-- Font Awesome -->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
   <body>
     <video playsinline autoplay muted loop poster="assets/Logo.png" id="bgvid">
@@ -31,7 +39,7 @@
       <!-- Nav-Start -->
       <nav class="navbar navbar-expand-lg navbar-light nav_back " >
         <div class="container-fluid p-0">
-          <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler border-0 colas_dorm" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon nav_col "><a href="index.html"><h2 class="logo_header_1_1">SENİN <label class="logo_header_2_1" >YURDUN</label>  </h2></a></span> 
             
           </button>
@@ -78,72 +86,105 @@
       <!-- Nav-End -->
       <!-- Head -->
       <div class="container mt-5">
-          <div class="row">
-              <div class="col-6 mt-5 pt-5 price_col">
-                  <!-- Form  -->
-      
-            <h1>Yurttan Fiyat Al</h1>
-            <br>
-            <input class="form-control" type="text" placeholder="Ad Soyad" aria-label="default input example">
-            
-            <label for="exampleDataList" class="form-label"></label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Üniversite Seçiniz">
-            <datalist id="datalistOptions">
-              <option value="San Francisco">
-              <option value="New York">
-              <option value="Seattle">
-              <option value="Los Angeles">
-              <option value="Chicago">
-            </datalist>
-            <label for="exampleDataList" class="form-label"></label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Fakülte Seç">
-            <datalist id="datalistOptions">
-              <option value="San Francisco">
-              <option value="New York">
-              <option value="Seattle">
-              <option value="Los Angeles">
-              <option value="Chicago">
-            </datalist>
-            
-            <div class="form-check mt-4">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">
-                Kullanıcı Sözleşmesi'ni okudum,kabul ediyorum.
-              </label>
-              <div class="whatsapp float-end pb-4 me-3">  
-                <a href="https://api.whatsapp.com/send?phone=1111111111"><h4 class="d-inline whatsapp">Whatsapp</h4><i class="fa-brands fa-whatsapp ms-2 whatsapp"></i></a>
-             </div>
-            </div>
+        <div class="row">
+          <div class="col">
               
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="https://picsum.photos/id/12/200" alt="Los Angeles" style="width:100%;">
+                </div>
+
+                <div class="item">
+                  <img src="https://picsum.photos/id/14/200" alt="Chicago" style="width:100%;">
+                </div>
+              
+                <div class="item">
+                  <img src="https://picsum.photos/id/13/200" alt="New york" style="width:100%;">
+                </div>
               </div>
-              <div class="col-4 mt-5 ms-5 "><img class="dorm_img" src="assets/bina.jpeg" alt=""></div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
+        </div>
       </div>
+
+      <!-- Dorm-Price -->
+      <div class="container mt-5 bg-white p-4 ">
+        <div class="row">
+          <div class="col-5 ms-5 ">
+            <button type="button" class="btn btn-primary btn-lg ms-5">Large button</button>
+          </div>
+          <div class="col-4 ms-5">
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dorm-price-End -->
       
       <!-- Head-End -->
-      
-      <!-- Cities-Card -->
-      <div class="container  mt-5 ">
-        <div class="row">
-          <div class="col-lg-4 p-2 mt-5">
-              <div class="property-card citiescard">
-                <a href="#">
-                  <div class="property-image">
-                    <div class="property-image-title">
-                      <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-                    </div>
-                  </div></a>
-                <div class="property-description">
-                  <h5> Zahide Hanım Kız Öğrenci Yurdu </h5>
-                  <p>Kurulduğu günden bu yana geleceğin temeli olan gençleri bünyesinde ağırlayan yurdumuz, profesyonel yönetim kadrosu ve güler yüzlü çalışanlarıyla size evinizin sıcaklığını yaşatır.</p>
-                </div>
-                
+
+      <div class="heading mt-5">
+        <div class="card card_head_1_2_3">
+          <div class="card-body">
+            <h1 class="text-center ">Zahide Hanım Kız Öğrenci Yurdu</h1>
+          </div>
         </div>
-    </div>
+      </div>
+      <i class="fa-solid fa-location-dot me-4 ms-3 mt-4 dorm_fav"></i><h1 class="d-inline-block">Konum</h1>
+
+      <!-- Dorm-Details -->
+      <div class="container mt-5 ms-4 opacity-75">
+        <div class="row">
+          <div class="col-4">
+            <i class="fa-solid fa-bed dorm_fav ms-2 me-4 "></i><h2 class="d-inline-block">112</h2>
+          </div>
+          <div class="col-4">
+            <i class="fa-solid fa-utensils dorm_fav me-4 "></i><h2 class="d-inline-block">22</h2>
+          </div>
+          <div class="col-4">
+            <i class="fa-solid fa-wifi dorm_fav me-4 "></i><h2 class="d-inline-block">Var</h2>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <i class="fa-solid fa-location-dot me-4 ms-4 mt-4 dorm_fav"></i><h1 class="d-inline-block">Konum</h1><br>
+      <i class="fa-solid fa-desktop me-4 ms-3 mt-4 dorm_fav"></i><h1 class="d-inline-block">Site</h1><br>
+      <i class="fa-solid fa-phone me-4 ms-3 mt-4 mb-3  dorm_fav"></i><h1 class="d-inline-block">Telefon</h1>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Yurt Hakkında Açıklama Dinamik olacak Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3> 
+          </div>
+        </div>
+      </div>
+      
+      <!-- Dorm-Details-End -->
+      <!-- Cities-Card -->
+      
     
     <!-- Cities-Card-End -->
     <!--Comment-input  -->
-    <div class="heading mt-5">
+    <!-- <div class="heading mt-5">
       <div class="card card_head_1_5 ms-5">
         <div class="card-body">
           <h1 class="text-center ">Kullanıcı Yorumları</h1>
@@ -171,9 +212,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- comment-main -->
-    <div class="containe">
+    <!-- <div class="containe">
       <div class="row">
         <div class="col">
           <h1 class="text-center me-2 mt-5 ">Yorumlar</h1>
@@ -211,7 +252,7 @@
         
         </div>
       </div>
-    </div>
+    </div> -->
 
 
     <!--Comment-End  -->
