@@ -205,16 +205,37 @@ a {
     border-radius: 0px 50px 50px 0px;
 }
 .card_head_1_5{
-    width: 18rem;
+    width: 22rem;
     background-color: #ac1c7a !important;
     color: white;
-    border-radius: 50px;
+    border-radius: 0px 50px 50px 0px !important;
 }
 .card_head_1_2_3{
         width: 26rem;
         background-color: #ac1c7a !important;
         color: white;
         border-radius: 0px 50px 50px 0px !important;
+}
+/* Dorm-Main */
+.write_cont{
+    opacity: 90% !important;
+}
+.dorm_write{
+    background-color: #ac1c7a !important;
+    color: white !important;
+    font-size: 20px !important;
+    border-radius: 12px !important;
+}
+.dorm_write_1{
+    background-color:#20628d !important;
+    color: white !important;
+    font-size: 20px !important;
+    border-radius: 12px !important;
+}
+.dorm_write_whatsapp{
+    color: #25D366;
+    margin-left: 4px;
+    font-size: 25px;
 }
 
 .dorm_fav{
