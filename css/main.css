@@ -101,8 +101,13 @@ a {
 }
 
 .logo{
-    width: 15%;
-    display:inline-block;
+    width: 15% !important;
+    display:inline-block ;
+    
+}
+.logo_1{
+    width: 8% !important;
+    display:inline-block !important ;
     
 }
 .card_heading_1{
